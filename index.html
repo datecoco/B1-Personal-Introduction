@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>나의 포트폴리오</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head><body><header>
+  <nav aria-label="주 메뉴">
+    <a href="#hero">MY PAGE</a>
+    <button id="menuBtn" aria-controls="menu"
+      aria-expanded="false">메뉴</button>
+    <div id="menu">
+      <a href="#hero">홈</a><a href="#about">소개</a>
+      <a href="#skills">기술</a><a href="#projects">프로젝트</a>
+      <a href="#contact">문의</a>
+    </div>
+    <button id="themeBtn">다크 모드</button>
+  </nav>
+</header><main>
+  <section id="hero">
+    <h1>안녕하세요, 웹을 배우는 ○○○입니다.</h1>
+    <p>직접 만든 첫 웹페이지입니다.</p>
+    <a href="#projects">프로젝트 보기</a>
+  </section>
+  <section id="about"><h2>나의 소개</h2>
+    <img src="images/profile.jpg" alt="나의 프로필 사진" width="180">
+    <p>내가 좋아하는 일과 앞으로의 목표를 적어보세요.</p>
+  </section>
+  <section id="skills"><h2>배우는 기술</h2>
+    <ul><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+  </section>
+  <section id="projects"><h2>프로젝트</h2>
+    <p id="projectStatus" role="status"></p>
+    <button id="retry" hidden>다시 시도</button>
+    <div id="cards"></div>
+  </section>
+  <section id="contact"><h2>문의하기</h2>
+<form id="contactForm" novalidate>
+  <label for="name">이름</label>
+  <input id="name" required aria-describedby="nameError">
+  <small id="nameError" class="error" aria-live="polite"></small>
+  <label for="email">이메일</label>
+  <input id="email" type="email" required aria-describedby="emailError">
+  <small id="emailError" class="error" aria-live="polite"></small>
+  <label for="message">메시지</label>
+  <textarea id="message" required aria-describedby="messageError"></textarea>
+  <small id="messageError" class="error" aria-live="polite"></small>
+  <button type="submit">입력 확인</button>
+  <p id="formStatus" role="status"></p>
+</form></section>
+</main><footer><p>© 2026 ○○○</p>
+  <a href="https://github.com/YOUR_ID">GitHub</a>
+</footer>
+<button id="topBtn" hidden>맨 위로</button>
+</body></html>

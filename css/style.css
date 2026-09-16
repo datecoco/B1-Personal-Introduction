@@ -1,0 +1,54 @@
+:root {
+  --bg: #ffffff; --fg: #172b3a; --panel: #eef3f6;
+  --gap: 1rem; --font: sans-serif;
+}
+[data-theme="dark"] {
+  --bg: #14212b; --fg: #eef5fa; --panel: #243746;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; font-family: var(--font); line-height: 1.6;
+  background: var(--bg); color: var(--fg);
+}
+header { position: sticky; top: 0; z-index: 10;
+  background: var(--bg); }
+nav { display: flex; align-items: center; gap: var(--gap);
+  flex-wrap: wrap; padding: 1rem; }
+#menu { display: none; width: 100%; order: 3; }
+#menu.active { display: flex; flex-direction: column; }
+#themeBtn { margin-left: auto; }
+main, footer { max-width: 1100px; margin: auto; padding: 1rem; }
+section { padding: 2rem 0; scroll-margin-top: 6rem; }
+img { max-width: 100%; height: auto; border-radius: 12px; }
+a { color: inherit; }
+button, input, textarea { font: inherit; }
+button { cursor: pointer; padding: .5rem 1rem;
+  background: var(--panel); color: var(--fg);
+  border: 1px solid currentColor; border-radius: 8px; }
+button, article { transition: transform .2s, box-shadow .2s; }
+button:hover, article:hover { transform: translateY(-2px); }
+#cards { display: grid; gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+article { padding: 1rem; background: var(--panel);
+  overflow-wrap: anywhere; box-shadow: 0 3px 12px #0002; }
+@media (min-width: 768px) {
+  #menuBtn { display: none; }
+  #menu, #menu.active { display: flex; flex-direction: row;
+    width: auto; order: 0; margin-left: auto; gap: 1rem; }
+  #themeBtn { margin-left: 0; }
+}
+@media (min-width: 1024px) {
+  main { padding: 2rem; }
+  h1 { font-size: 2.6rem; }
+}
+header.scrolled { background: var(--panel); }
+#topBtn { position: fixed; right: 1rem; bottom: 1rem; }
+.reveal { opacity: 0; transform: translateY(16px);
+  transition: opacity .5s, transform .5s; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+form { display: grid; gap: .5rem; max-width: 36rem; }
+input, textarea { width: 100%; padding: .6rem;
+  background: var(--bg); color: var(--fg); border: 1px solid; }
+.error { min-height: 1.6em; color: #b42318; }
+[data-theme="dark"] .error { color: #ffb4ab; }
