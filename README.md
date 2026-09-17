@@ -92,15 +92,11 @@ Projects 섹션에 표시
 
 ### 데스크톱
 
-![데스크톱 화면](screenshots/desktop.png)
-
-### 모바일 메뉴
-
-![모바일 메뉴 화면](screenshots/mobile-menu.png)
-
-### 다크 모드
-
-![다크 모드 화면](screenshots/dark-mode.png)
+| 구분 | 스크린샷 |
+| --- | --- |
+| 데스크톱 화면 | [📷 데스크톱 화면 보기](screenshots/desktop.png) |
+| 모바일 메뉴 | [📷 모바일 메뉴 화면 보기](screenshots/mobile-menu.png) |
+| 다크 모드 | [📷 다크 모드 화면 보기](screenshots/dark-mode.png) |
 
 ---
 
