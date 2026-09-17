@@ -86,12 +86,17 @@ Projects 섹션에 표시
 
 ## 📸 실행 화면
 
-추가 예정
+### 데스크톱
 
-- 데스크톱 화면
-- 모바일 메뉴 화면
-- 다크 모드 화면
-- GitHub 프로젝트 카드 화면
+![데스크톱 화면](docs/screenshots/desktop.png)
+
+### 모바일 메뉴
+
+![모바일 메뉴 화면](docs/screenshots/mobile-menu.png)
+
+### 다크 모드
+
+![다크 모드 화면](docs/screenshots/dark-mode.png)
 
 ---
 
