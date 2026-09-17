@@ -48,8 +48,12 @@ B1-Personal-Introduction
 │   └── style.css
 ├── js
 │   └── main.js
-└── images
-    └── profile.jpg
+├── images
+│   └── profile.jpg
+└── screenshots
+    ├── desktop.png
+    ├── mobile-menu.png
+    └── dark-mode.png
 ```
 
 ---
@@ -88,15 +92,15 @@ Projects 섹션에 표시
 
 ### 데스크톱
 
-![데스크톱 화면](docs/screenshots/desktop.png)
+![데스크톱 화면](screenshots/desktop.png)
 
 ### 모바일 메뉴
 
-![모바일 메뉴 화면](docs/screenshots/mobile-menu.png)
+![모바일 메뉴 화면](screenshots/mobile-menu.png)
 
 ### 다크 모드
 
-![다크 모드 화면](docs/screenshots/dark-mode.png)
+![다크 모드 화면](screenshots/dark-mode.png)
 
 ---
 
