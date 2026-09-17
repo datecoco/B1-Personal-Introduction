@@ -8,7 +8,7 @@
 
 ## 🚀 배포 주소
 
-
+- GitHub 저장소: https://github.com/datecoco/B1-Personal-Introduction
 - GitHub Pages: https://datecoco.github.io/B1-Personal-Introduction/
 
 ---
