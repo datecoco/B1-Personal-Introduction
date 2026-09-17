@@ -75,6 +75,8 @@ const cards = document.querySelector('#cards');
 const statusText = document.querySelector('#projectStatus');
 const retry = document.querySelector('#retry');
 let projectState = { status: 'loading', repos: [] };
+
+
 const renderProjects = () => {
   const { status, repos } = projectState;
   cards.innerHTML = '';
@@ -85,6 +87,8 @@ const renderProjects = () => {
     empty: '표시할 프로젝트가 없습니다.'
   };
   statusText.textContent = messages[status];
+
+  
   if (status !== 'success') return;
   const items = repos.map(({ name, description }) => {
     const card = document.createElement('article');
