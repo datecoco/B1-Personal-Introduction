@@ -102,6 +102,7 @@ Projects 섹션에 표시
 
 ## ▶ 실행 방법
 
+```
 1. 프로젝트 폴더를 VS Code에서 엽니다.
 2. `index.html` 파일을 엽니다.
 3. Live Server로 실행합니다.
